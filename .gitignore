@@ -2,6 +2,10 @@
 __pycache__/
 *.py[cod]
 
+surgeons.csv
+
+.DS_Store
+
 # C extensions
 *.so
 
