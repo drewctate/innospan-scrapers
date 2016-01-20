@@ -9,6 +9,9 @@ import scrapy
 
 
 class SurgeonItem(scrapy.Item):
-    name = scrapy.Field()
+    fname = scrapy.Field()
+    lname = scrapy.Field()
+    MI = scrapy.Field()
+    suffix = scrapy.Field()
     address = scrapy.Field()
     phone = scrapy.Field()
