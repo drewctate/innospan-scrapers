@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 
-surgeons.csv
+*.csv
 
 .DS_Store
 
