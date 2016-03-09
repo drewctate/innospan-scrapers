@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 
 *.csv
+*.numbers
 
 .DS_Store
 

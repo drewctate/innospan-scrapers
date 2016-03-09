@@ -15,7 +15,7 @@ def addNameAndSuffix(item, name):
     parsedName = parseName(name)
 
     # remove suffixes
-    allSuffixes = ['MD', 'DDS', 'DMD', 'II', 'III', 'Phd', 'PhD', 'Jr', 'FACS', 'PC']
+    allSuffixes = ['MD', 'DDS', 'DMD', 'II', 'III', 'Phd', 'PhD', 'Jr', 'FACS', 'PC', 'DO']
     suffixes = []
     for word in parsedName:
         if word in allSuffixes:
