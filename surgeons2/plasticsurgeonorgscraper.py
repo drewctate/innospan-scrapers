@@ -140,8 +140,6 @@ def parseSurgeonList(url, driver, writer, international):
         nextBtn = driver.find_element_by_link_text("Next")
         print "*********************************************************"
 
-print "crawl finished"
-
 driver = webdriver.Firefox()
 csvfile = open('international.csv', 'wb')
 csvfile2 = open('us2.csv', 'wb')
